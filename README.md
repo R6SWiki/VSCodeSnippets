@@ -27,7 +27,7 @@
 - **skill**：技能名
 - **mouse**：鼠标键
 - **key**：键盘键
-- **operatorCord**：干员名，只输入cord也可以触发
+- **operatorCode**：干员名，只输入cord也可以触发
 - **map**：地图名
 - **mapid**：地图英文id
 - **wi**：武器型号
@@ -46,13 +46,17 @@
 	- **得分每周挑战**
 
 
+#### lua
+
+- **lua**：快速开始一个模块
+- **find**：数据查询
+- **findOne**：查询1行数据
+
 #### html
 
 html的部分主要就是替换了html5的语法，在里面补充了common.css的引用和默认的页面背景色。这一部分主要考虑到网页开发的部分工作，因此并没有放在本项目中，如果需要请前往：R6SWiki/**[HTMLFront](https://github.com/R6SWiki/HTMLFront)**
 
-#### lua
 
-准备中……
 
 ## 扩展
 
