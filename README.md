@@ -1,15 +1,20 @@
-# VSCodeSnippets
 专用于VSCode编辑者可以使用的本站编辑工作的自定义代码片段补全方案文件。
 
 不依赖其他插件。
 
 ## 使用方法
 
-1. 在VSCode中按下`F1`
-2. 搜索`Configure User Snippets`找到「首选项：配置用户代码片段」
-3. 在弹出的框中选择「新建“XXXX”文件夹的代码片段文件。」，所谓的XXXX就是你的工作区。
-4. 在弹出的框中输入`wikitext`
-5. 之后会打开`wikitext.code-snippets`文件，把本项目提供的Wikitext.json文件内容直接复制进去并保存即可使用。
+
+这里提供两个方案：
+
+
+- 直接把`.vscode`文件拷贝到你的工作区中，搞定，这是最简单的方式！
+- 如果你的需求比较复杂，则可以这样：
+	1. 在VSCode中按下`F1`
+	2. 搜索`Configure User Snippets`找到「首选项：配置用户代码片段」
+	3. 在弹出的框中选择「新建“XXXX”文件夹的代码片段文件。」，所谓的XXXX就是你的工作区。
+	4. 在弹出的框中输入你要的名字，比如`R6swiki`，完成后会新建一个`R6swiki.code-snippet`文件。
+	5. 根据需要把本项目提供的`wikitext.json`或者`lua.json`文件内容直接复制进去并保存即可使用。
 
 ### 语法提示
 
@@ -45,18 +50,20 @@
 	- **防守方每周挑战**
 	- **得分每周挑战**
 
-
 #### lua
+
+
 mediawiki函数库的语法提示支持请使用：[Lua snippets for Wikimedia插件](https://marketplace.visualstudio.com/items?itemName=jeblad-3.WMFsnippets)
+
+
 - **lua**：快速开始一个模块
 - **find**：数据查询
 - **findOne**：查询1行数据
 
 #### html
 
+
 html的部分主要就是替换了html5的语法，在里面补充了common.css的引用和默认的页面背景色。这一部分主要考虑到网页开发的部分工作，因此并没有放在本项目中，如果需要请前往：R6SWiki/**[HTMLFront](https://github.com/R6SWiki/HTMLFront)**
-
-
 
 ## 扩展
 
