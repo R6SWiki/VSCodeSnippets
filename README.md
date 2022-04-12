@@ -8,7 +8,7 @@
 这里提供两个方案：
 
 
-- 直接把`.vscode`文件拷贝到你的工作区中，搞定，这是最简单的方式！
+- 直接[下载](https://github.com/R6SWiki/VSCodeSnippets/releases)文件拷贝到你的工作区中的`.vscode`目录下，搞定，这是最简单的方式！
 - 如果你的需求比较复杂，则可以这样：
 	1. 在VSCode中按下`F1`
 	2. 搜索`Configure User Snippets`找到「首选项：配置用户代码片段」
