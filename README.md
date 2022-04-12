@@ -23,19 +23,19 @@
 可以根据自己的需求来定制修改语法提示文件。
 
 
-- **skill：**技能名
-- **mouse：**鼠标键
-- **key：**键盘键
-- **operatorCord：**干员名，只输入cord也可以触发
-- **map：**地图名
-- **mapid：**地图英文id
-- **wi：**武器型号
-- **quality：**涂装品质
-- **color：**颜色
-- **ref：**引用
-- **正在施工：**{{正在施工}}
-- **infoboxpatch：**补丁页面的infobox
-- **operatorChangeItem：**干员改动模板
+- **skill**：技能名
+- **mouse**：鼠标键
+- **key**：键盘键
+- **operatorCord**：干员名，只输入cord也可以触发
+- **map**：地图名
+- **mapid**：地图英文id
+- **wi**：武器型号
+- **quality**：涂装品质
+- **color**：颜色
+- **ref**：引用
+- **正在施工**：{{正在施工}}
+- **infoboxPatch**：补丁页面的infobox
+- **operatorChangeItem**：干员改动模板
 - **每周挑战**
 	- **多人每周挑战**
 	- **训练场每周挑战**
@@ -44,12 +44,13 @@
 	- **防守方每周挑战**
 	- **得分每周挑战**
 
+
 #### html
 
 
 html的部分主要就是替换了html5的语法，在里面补充了common.css的引用和默认的页面背景色。关于common.css的部分详见项目：R6SWiki/**[HTMLFront](https://github.com/R6SWiki/HTMLFront)**
 
-lua
+####lua
 
 准备中……
 
