@@ -47,7 +47,7 @@
 
 
 #### lua
-
+mediawiki函数库的语法提示支持请使用：[Lua snippets for Wikimedia插件](https://marketplace.visualstudio.com/items?itemName=jeblad-3.WMFsnippets)
 - **lua**：快速开始一个模块
 - **find**：数据查询
 - **findOne**：查询1行数据
@@ -61,4 +61,4 @@ html的部分主要就是替换了html5的语法，在里面补充了common.css�
 ## 扩展
 
 
-[了解如何修改自定义代码片段](https://code.visualstudio.com/docs/editor/userdefinedsnippets) ｜ [Wikitext插件](https://marketplace.visualstudio.com/items?itemName=RoweWilsonFrederiskHolme.wikitext) | [了解Wikitext插件的使用方法](https://www.huijiwiki.com/p/21136)
+[了解如何修改自定义代码片段](https://code.visualstudio.com/docs/editor/userdefinedsnippets) ｜ [Wikitext插件](https://marketplace.visualstudio.com/items?itemName=RoweWilsonFrederiskHolme.wikitext) | [了解Wikitext插件的使用方法](https://www.huijiwiki.com/p/21136) [Lua snippets for Wikimedia插件](https://marketplace.visualstudio.com/items?itemName=jeblad-3.WMFsnippets)
