@@ -50,7 +50,7 @@
 
 html的部分主要就是替换了html5的语法，在里面补充了common.css的引用和默认的页面背景色。关于common.css的部分详见项目：R6SWiki/**[HTMLFront](https://github.com/R6SWiki/HTMLFront)**
 
-####lua
+#### lua
 
 准备中……
 
