@@ -1,4 +1,4 @@
-{ // lua：
+{     // lua：
     "localp开头": {
         "prefix": ["lua"],
         "body": [
