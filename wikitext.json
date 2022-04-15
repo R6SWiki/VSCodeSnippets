@@ -1,5 +1,5 @@
 {
-	"技能名": {
+		"技能名": {
         "prefix": [" skill"],
         "body": [
             "{{技能|${1|1,sledge,smoke,thatcher,mute,ash,castle,thermite,pulse,twitch,doc,montagne,rook,glaz,kapkan,fuze,tachanka,blitz,jager,iq,bandit,buck,frost,blackbeard,valkyrie,capitao,caveira,hibana,echo,jackal,mira,ying,lesion,ela,zofia,dokkaebi,vigil,lion,finka,alibi,maestro,maverick,clash,nomad,kaid,gridlock,mozzie,nokk,warden,amaru,goyo,kali,wamai,iana,oryx,ace,melusi,zero,aruni,flores,thunderbird,osa,thorn,azami|}}}$0"
@@ -32,7 +32,7 @@
 	"干员名": {
         "prefix": [" operatorCode"],
         "body": [
-            "{{${1|sledge,smoke,thatcher,mute,ash,castle,thermite,pulse,twitch,doc,montagne,rook,glaz,kapkan,fuze,tachanka,blitz,jager,iq,bandit,buck,frost,blackbeard,valkyrie,capitao,caveira,hibana,echo,jackal,mira,ying,lesion,ela,zofia,dokkaebi,vigil,lion,finka,alibi,maestro,maverick,clash,nomad,kaid,gridlock,mozzie,nokk,warden,amaru,goyo,kali,wamai,iana,oryx,ace,melusi,zero,aruni,flores,thunderbird,osa,thorn,azami}}}$0"
+            "${1|sledge,smoke,thatcher,mute,ash,castle,thermite,pulse,twitch,doc,montagne,rook,glaz,kapkan,fuze,tachanka,blitz,jager,iq,bandit,buck,frost,blackbeard,valkyrie,capitao,caveira,hibana,echo,jackal,mira,ying,lesion,ela,zofia,dokkaebi,vigil,lion,finka,alibi,maestro,maverick,clash,nomad,kaid,gridlock,mozzie,nokk,warden,amaru,goyo,kali,wamai,iana,oryx,ace,melusi,zero,aruni,flores,thunderbird,osa,thorn,azami|}$0"
         ],
         "description": "干员名模板",
         "scope":"wikitext"
@@ -144,7 +144,7 @@
         "body": [
             "{{干员改动",
             "|$1",
-            "|$2",
+            "|$0",
             "}}"
         ],
         "description": "{{干员改动|干员名称|改动内容}}",
