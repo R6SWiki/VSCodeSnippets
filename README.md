@@ -3,17 +3,16 @@
 不依赖其他插件。
 
 ## 使用方法
-
 - 对于使用工作区的人，直接下载对应的文件拷贝到你的工作区中的`.vscode`目录下，搞定。
 - 如果打算直接修改全局设置：
 	1. 在VSCode中按下`F1`
 	2. 搜索`Configure User Snippets`找到「首选项：配置用户代码片段」
-	3. 在弹出的框中选择对应的语言类型，比如写Wiki就用`wikitext`，然后输入一个文件名。
+	3. 在弹出的框中选择对应的语言类型，比如写条目就下载`wikitext`，然后输入一个文件名。
 	4. 根据需要把本项目提供的`wikitext.code-snipeets`文件内容直接复制进去并保存即可使用。
 
+备注：写条用Wikitext，敲模块用Lua，写前端请前往R6SWiki/**[HTMLFront](https://github.com/R6SWiki/HTMLFront)**
+
 ### 语法提示
-
-
 #### Wikitext
 
 
