@@ -1,475 +1,484 @@
 {
-		"技能名": {
-        "prefix": [" skill"],
-        "body": [
-            "{{技能|${1|1,sledge,smoke,thatcher,mute,ash,castle,thermite,pulse,twitch,doc,montagne,rook,glaz,kapkan,fuze,tachanka,blitz,jager,iq,bandit,buck,frost,blackbeard,valkyrie,capitao,caveira,hibana,echo,jackal,mira,ying,lesion,ela,zofia,dokkaebi,vigil,lion,finka,alibi,maestro,maverick,clash,nomad,kaid,gridlock,mozzie,nokk,warden,amaru,goyo,kali,wamai,iana,oryx,ace,melusi,zero,aruni,flores,thunderbird,osa,thorn,azami|}}}$0"
-        ],
-        "description": "{{技能|干员代号}}",
-        "scope":"wikitext"
-    },
-
-
-	"鼠标键": {
-        "prefix": [" mouse"],
-        "body": [
-            "{{key|${1|ml,mm,mr|}}}$0"
-        ],
-        "description": "鼠标按键名，比如：{{key|ml}}是鼠标左键，{{key|mm}}是鼠标中键，{{key|mr}}是鼠标右键",
-        "scope":"wikitext"
-    },
-
-
-    "键盘键": {
-        "prefix": [" key"],
-        "body": [
-            "{{key|$1}}$0"
-        ],
-        "description": "按键名",
-        "scope":"wikitext"
-    },
-
-
-	"干员名": {
-        "prefix": [" operatorCode"],
-        "body": [
-            "${1|sledge,smoke,thatcher,mute,ash,castle,thermite,pulse,twitch,doc,montagne,rook,glaz,kapkan,fuze,tachanka,blitz,jager,iq,bandit,buck,frost,blackbeard,valkyrie,capitao,caveira,hibana,echo,jackal,mira,ying,lesion,ela,zofia,dokkaebi,vigil,lion,finka,alibi,maestro,maverick,clash,nomad,kaid,gridlock,mozzie,nokk,warden,amaru,goyo,kali,wamai,iana,oryx,ace,melusi,zero,aruni,flores,thunderbird,osa,thorn,azami|}$0"
-        ],
-        "description": "干员名模板",
-        "scope":"wikitext"
-    },
-
-
-    "地图名": {
-        "prefix": [" map"],
-        "body": [
-            "${1|银行,边境,木屋,俱乐部,海岸线,领事馆,杜斯妥也夫斯基咖啡馆,运河,俄勒冈乡间屋宅,荒漠服务站,主题乐园,庄园,游艇,赫里福基地,巴特雷特大学,要塞,芝加哥豪宅,摩天大楼,高塔,总统专机,贫民窟|}"
-        ],
-        "description": "干员名模板",
-        "scope":"wikitext"
-    },
-
-
-    "地图id": {
-        "prefix": [" mapid"],
-        "body": [
-            "${1|银行,bank,边境,border,木屋,chalet,俱乐部,clubhouse,海岸线,coastline,领事馆,consulate,杜斯妥也夫斯基咖啡馆,kafe,运河,kanal,俄勒冈乡间屋宅,oregon,荒漠服务站,outback,主题乐园,themepark,庄园,villa,游艇,yacht,赫里福基地,hereford,巴特雷特大学,bartlett,要塞,fortress,芝加哥豪宅,house,摩天大楼,skyscraper,高塔,tower,总统专机,plane,贫民窟,favela|}"
-        ],
-        "description": "地图id",
-        "scope":"wikitext"
-    },
-
-    "枪名": {
-        "prefix": [" wi"],
-        "body": [
-            "{{wi|${1|l85a2,ar33,556xi,g36c,r4c,f2,ak12,auga2,552commando,416ccarbine,c8sfw,mk17cqb,para308,type89,c7e,m762,v308,spear308,m4,arx200,ak74m,f90,commando9,sc3000k,pdw9,fmg9,mp5k,ump45,mp5,p90,9x19vsn,mp7,9mmc1,mpx,m12,mp5sd,vector45acp,t5smg,scorpionevo3a1,k1a,mx4storm,auga3,p10roni,6p41,dp27,g8a1,m249,t95lsw,lmge,alda556,m249saw,smg11,bearing9,c75auto,smg12,spsmg9,ots03,417,camrs,sr25,mk14ebr,ar1550,csrx300,acs12,bosg122,tcsg12,m590a1,m1014,sgcqb,sasg12,m870,super90,spas12,spas15,supernova,ita12l,six12,six12sd,fo12,p226mk25,m45meusoc,57usg,p9,lfp586,pmm,gsh18,p12,mk19mm,d50,prb92,luison,p229,usp40,q929,rg15,keratos357,1911tacops,p10c,44magsemiauto,sdp9mm,supershorty,ita12s,bailiff410,gonne6,uzk50gi|}}}$0"
-        ],
-        "description": "{{wi|枪名}}",
-        "scope":"wikitext"
-    },  
-    
-    
-    "涂装品质": {
-        "prefix": [" quality"],
-        "body": [
-            "{{${1|普通,优良,稀有,史诗,传说|}|$2}}$0"
-        ],
-        "description": "{{涂装品质|皮肤名称}}",
-        "scope":"wikitext"
-    },
-
-
-    "给你点颜色": {
-        "prefix": [" color"],
-        "body": [
-            "{{${1|红色,黄色,绿色,蓝色,桔色|}|$2}}$0"
-        ],
-        "description": "{{文本颜色|内容}}",
-        "scope":"wikitext"
-    },
-
-
-    "引用": {
-        "prefix": [" ref"],
-        "body": [
-            "<ref>$1</ref>$0"
-        ],
-        "description": "<ref>引用内容</ref>",
-        "scope":"wikitext"
-    },
-
-
-    "补丁页面": {
-        "prefix": [" infoboxPatch"],
-        "body": [
-            "{{Infobox patch",
-            "|补丁序号=$1",
-            "|y=$2",
-            "|s=$3",
-            "|n=$4",
-            "|配图=Y$2s$3.$4_update_patch_picture.png",
-            "|赛季=$5行动",
-            "|PC补丁=",
-            "* Ubisoft Connect：$6GB",
-            "* Steam：$7GB",
-            "|游戏机补丁=",
-            "* Xbox One：$8GB",
-            "* Xbox Series X：$9GB",
-            "* PS4：$10GB",
-            "* PS5：$11GB",
-            "|推送日期=$CURRENT_YEAR-$CURRENT_MONTH-${12:$CURRENT_DATE}",
-            "|翻译者=[$13 $14]",
-            "|来源=[$14 Ubisoft]",
-            "|wikia=Rainbow_Six_Siege_patches/Patch_$2.$3.$4",
-            "|内部版本号=v$2.$3.$4",
-            "}}",
-            "$0"
-        ],
-        "description": "补丁页面所使用的Infobox",
-        "scope":"wikitext"
-    },
-
-
-    "干员改动": {
-        "prefix": [" operatorChangeItem"],
-        "body": [
-            "{{干员改动",
-            "|$1",
-            "|$0",
-            "}}"
-        ],
-        "description": "{{干员改动|干员名称|改动内容}}",
-        "scope":"wikitext"
-    },
-
-
-    "机构周常": {
-        "prefix": [" 训练场-每周挑战"],
-        "body": [
-            "{{Weeklychallenge/训练场|${1|SAS,FBI SWAT,GIGN,Spetsnaz,GSG 9,JTF-2,Navy SEALS,BOPE,SAT,GEO,SDU,GROM,707th SMB,CBRN,GIS,GIGR,SASR|}|$2}}",
-            "$0"
-        ],
-        "description": "机构周常：{{Weeklychallenge/训练场|机构名|胜利场次}}",
-        "scope":"wikitext"
-    },
-
-
-    "多人机构周常": {
-        "prefix": [" 多人-每周挑战"],
-        "body": [
-            "{{Weeklychallenge/多人|${1|SAS,FBI SWAT,GIGN,Spetsnaz,GSG 9,JTF-2,Navy SEALS,BOPE,SAT,GEO,SDU,GROM,707th SMB,CBRN,GIS,GIGR,SASR|}|$2}}",
-            "$0"
-        ],
-        "description": "机构周常：{{Weeklychallenge/多人|机构名|胜利场次}}",
-        "scope":"wikitext"
-    },
-
-
-    "枪械大师周常": {
-        "prefix": [" 大师每周挑战","枪械击杀-每周挑战"],
-        "body": [
-            "{{Weeklychallenge/${1|冲锋枪大师,竞技冲锋枪大师,步枪大师,竞技步枪大师,手枪大师,装备大师,竞技装备大师,霰弹枪大师,竞技霰弹枪大师|}|$2}}",
-            "$0"
-        ],
-        "description": "枪械大师周常：{{Weeklychallenge/武器大师|击杀数}}",
-        "scope":"wikitext"
-    },
-
-
-    "进攻方挑战": {
-        "prefix": [" 进攻方-每周挑战"],
-        "body": [
-            "{{Weeklychallenge/${1|进攻方,防守方|}|$2}}",
-            "$0"
-        ],
-        "description": "机构周常：{{Weeklychallenge/进攻方|胜利场次}}",
-        "scope":"wikitext"
-    },
-
-
-    "防守方挑战": {
-        "prefix": [" 防守方-每周挑战"],
-        "body": [
-            "{{Weeklychallenge/${1|防守方,进攻方|}|$2}}",
-            "$0"
-        ],
-        "description": "机构周常：{{Weeklychallenge/防守方|胜利场次}}",
-        "scope":"wikitext"
-    },
-
-
-    "每周MVP": {
-        "prefix": [" MVP-每周挑战"],
-        "body": [
-            "{{Weeklychallenge/${1|多人/MVP,训练场/团队玩家|}|$2}}",
-            "$0"
-        ],
-        "description": "机构周常：{{Weeklychallenge/多人或者训练场任务|得分要求}}",
-        "scope":"wikitext"
-    },
-
-
-    "得分挑战": {
-        "prefix": [" 团队玩家-每周挑战"," 得分每周挑战"],
-        "body": [
-            "{{Weeklychallenge/${1|训练场/团队玩家,多人/MVP|}|$2}}",
-            "$0"
-        ],
-        "description": "机构周常：{{Weeklychallenge/多人或者训练场任务|得分要求}}",
-        "scope":"wikitext"
-    },
-    
-    "维护模板：正在施工": {
-        "prefix": [" 维护模板-正在施工"," 正在施工"," mtl-working"],
-        "body": [
-            "{{正在施工|~~~~|$1}}$0"
-        ],
-        "description": "{{正在施工|~~~~|说明}}",
-        "scope":"wikitext"
-    },
-    
-    "维护模板：需要改进": {
-        "prefix": [" 维护模板-需要改进"," mtl-improvement-needed"],
-        "body": [
-            "{{需要改进|（''~~~~~''）$1<!--备注内容-->}}$0"
-        ],
-        "description": "{{需要改进|（''~~~~~''）备注内容}}",
-        "scope":"wikitext"
-    },
-
-    
-    "维护模板：需要校对": {
-        "prefix": [" 维护模板-需要校对"," mtl-review-needed"],
-        "body": [
-            "{{需要校对|（''~~~~~''）$1<!--备注内容-->}}$0"
-        ],
-        "description": "{{需要校对|（''~~~~~''）备注内容}}",
-        "scope":"wikitext"
-    },
-
-
-    "维护模板：需要扩写": {
-        "prefix": [" 维护模板-需要扩写"," mtl-expand-needed"],
-        "body": [
-            "{{需要扩写|（''~~~~~''）$1<!--备注内容-->}}$0"
-        ],
-        "description": "{{需要扩写|（''~~~~~''）备注内容}}",
-        "scope":"wikitext"
-    },
-
-
-    "维护模板：语法问题": {
-        "prefix": [" 维护模板-语法问题"," mtl-grammar-problem"],
-        "body": [
-            "{{语法问题|（''~~~~~''）$1<!--备注内容-->}}$0"
-        ],
-        "description": "{{语法问题|（''~~~~~''）备注内容}}",
-        "scope":"wikitext"
-    },
-
-
-    "维护模板：需要更新": {
-        "prefix": [" 维护模板-需要更新"," mtl-update-needed"],
-        "body": [
-            "{{需要更新|（''~~~~~''）$1<!--备注内容-->}}$0"
-        ],
-        "description": "{{需要更新|（''~~~~~''）备注内容}}",
-        "scope":"wikitext"
-    },
-
-
-    "维护模板：需要翻译": {
-        "prefix": [" 维护模板-需要翻译"," mtl-translation-needed"],
-        "body": [
-            "{{需要翻译|（''~~~~~''）$1<!--备注内容-->}}$0"
-        ],
-        "description": "{{需要翻译|（''~~~~~''）备注内容}}",
-        "scope":"wikitext"
-    },
-
-
-    "维护模板：翻译质量不佳": {
-        "prefix": [" 维护模板-翻译质量不佳"," mtl-translation-quality-poor"],
-        "body": [
-            "{{翻译质量不佳|（''~~~~~''）$1<!--备注内容-->}}$0"
-        ],
-        "description": "{{翻译质量不佳|（''~~~~~''）备注内容}}",
-        "scope":"wikitext"
-    },
-
-
-    "维护模板：暂定名称": {
-        "prefix": [" 维护模板-暂定名称"," mtl-name-needs-changing"],
-        "body": [
-            "{{暂定名称}}$0"
-        ],
-        "description": "{{暂定名称}}",
-        "scope":"wikitext"
-    },
-
-    
-    "维护模板：测试版本": {
-        "prefix": [" 维护模板-测试版本"," mtl-test-version"],
-        "body": [
-            "{{测试版本}}$0"
-        ],
-        "description": "{{测试版本}}",
-        "scope":"wikitext"
-    },
-
-    "维护模板：受限的游戏内容": {
-        "prefix": [" 维护模板-受限的游戏内容"," mtl-limited-game-content"],
-        "body": [
-            "{{受限的游戏内容}}$0"
-        ],
-        "description": "{{受限的游戏内容}}",
-        "scope":"wikitext"
-    },
-
-
-    "维护模板：涉及术语": {
-        "prefix": [" 维护模板-涉及术语"," mtl-terms-involved"],
-        "body": [
-            "{{涉及术语}}$0"
-        ],
-        "description": "{{涉及术语}}",
-        "scope":"wikitext"
-    },
-
-
-    "维护模板：已成历史": {
-        "prefix": [" 维护模板-已成历史"," mtl-history"],
-        "body": [
-            "{{已成历史|$1}}$0"
-        ],
-        "description": "{{已成历史|备注内容}}",
-        "scope":"wikitext"
-    },
-
-
-    "维护模板：经验之谈": {
-        "prefix": [" 维护模板-经验之谈"," mtl-experience-talk"],
-        "body": [
-            "{{经验之谈}}$0"
-        ],
-        "description": "{{经验之谈}}",
-        "scope":"wikitext"
-    },
-
-
-    "维护模板：经验之谈-段落": {
-        "prefix": [" 维护模板-经验之谈-段落"," mtl-experience-talk-paragraph"],
-        "body": [
-            "{{经验之谈|段落}}$0"
-        ],
-        "description": "{{经验之谈|段落}}",
-        "scope":"wikitext"
-    },
-
-
-    "维护模板：涉及现实": {
-        "prefix": [" 维护模板-涉及现实"," mtl-realistic"],
-        "body": [
-            "{{涉及现实}}$0"
-        ],
-        "description": "{{涉及现实}}",
-        "scope":"wikitext"
-    },
-
-
-    "维护模板：争议内容": {
-        "prefix": [" 维护模板-争议内容"," mtl-disputed-content"],
-        "body": [
-            "{{争议内容}}$0"
-        ],
-        "description": "{{争议内容}}",
-        "scope":"wikitext"
-    },
-
-
-    "维护模板：优秀条目": {
-        "prefix": [" 维护模板-优秀条目"," mtl-excellent-article"],
-        "body": [
-            "{{优秀条目}}$0"
-        ],
-        "description": "{{优秀条目}}",
-        "scope":"wikitext"
-    },
-
-
-    "维护模板：特色条目": {
-        "prefix": [" 维护模板-特色条目"," mtl-feature-article"],
-        "body": [
-            "{{特色条目}}$0"
-        ],
-        "description": "{{特色条目}}",
-        "scope":"wikitext"
-    },
-
-    "维护模板：汤姆克兰西宇宙": {
-        "prefix": [" 维护模板-汤姆克兰西宇宙"," mtl-tom-clancy"],
-        "body": [
-            "{{汤姆克兰西宇宙|$1}}$0"
-        ],
-        "description": "{{汤姆克兰西宇宙|备注}}",
-        "scope":"wikitext"
-    },
-
-
-    "维护模板：简而言之": {
-        "prefix": [" mtl-nutshell"," 维护模板-简而言之"],
-        "body": [
-            "{{简而言之|$1}}$0"
-        ],
-        "description": "{{简而言之|简单描述条目内容}}",
-        "scope":"wikitext"
-    },
-
-    
-    "维护模板：待测试": {
-        "prefix": [" 维护模板-待测试"," inline-test-needed"],
-        "body": [
-            "{{待测试|$1|$2}}$0"
-        ],
-        "description": "{{待测试|高亮内容|注释}}",
-        "scope":"wikitext"
-    },
-
-
-    "维护模板：内容缺失": {
-        "prefix": [" 维护模板-内容缺失"," inline-content-missing"],
-        "body": [
-            "{{内容缺失|$1|$2}}$0"
-        ],
-        "description": "{{内容缺失|高亮内容|注释}}",
-        "scope":"wikitext"
-    },
-
-    "维护模板：请求来源": {
-        "prefix": [" 维护模板-请求来源"," inline-request-source"],
-        "body": [
-            "{{请求来源|$1|$2}}$0"
-        ],
-        "description": "{{请求来源|高亮内容|注释}}",
-        "scope":"wikitext"
-    },
-
-    "维护模板：存在争议": {
-        "prefix": [" 维护模板-存在争议"," inline-disputed-content"],
-        "body": [
-            "{{存在争议|$1|$2}}$0"
-        ],
-        "description": "{{存在争议|高亮内容|注释}}",
-        "scope":"wikitext"
-    },
-
-    "维护模板：段内原创研究": {
-        "prefix": [" 维护模板-段内原创研究"," inline-original-research"," inline-OR"],
-        "body": [
-            "{{段内原创研究|$1|$2}}$0"
-        ],
-        "description": "{{段内原创研究|高亮内容|注释}}",
-        "scope":"wikitext"
-    }
+    "技能名": {
+    "prefix": [" skill"],
+    "body": [
+        "{{技能|${1|1,sledge,smoke,thatcher,mute,ash,castle,thermite,pulse,twitch,doc,montagne,rook,glaz,kapkan,fuze,tachanka,blitz,jager,iq,bandit,buck,frost,blackbeard,valkyrie,capitao,caveira,hibana,echo,jackal,mira,ying,lesion,ela,zofia,dokkaebi,vigil,lion,finka,alibi,maestro,maverick,clash,nomad,kaid,gridlock,mozzie,nokk,warden,amaru,goyo,kali,wamai,iana,oryx,ace,melusi,zero,aruni,flores,thunderbird,osa,thorn,azami|}}}$0"
+    ],
+    "description": "{{技能|干员代号}}",
+    "scope":"wikitext"
+},
+
+
+"鼠标键": {
+    "prefix": [" mouse"],
+    "body": [
+        "{{key|${1|ml,mm,mr|}}}"
+    ],
+    "description": "鼠标按键名，比如：{{key|ml}}是鼠标左键，{{key|mm}}是鼠标中键，{{key|mr}}是鼠标右键",
+    "scope":"wikitext"
+},
+
+
+"键盘键": {
+    "prefix": [" key"],
+    "body": [
+        "{{key|$1}}$0"
+    ],
+    "description": "按键名",
+    "scope":"wikitext"
+},
+
+
+"干员名": {
+    "prefix": [" operatorCode"],
+    "body": [
+        "${1|sledge,smoke,thatcher,mute,ash,castle,thermite,pulse,twitch,doc,montagne,rook,glaz,kapkan,fuze,tachanka,blitz,jager,iq,bandit,buck,frost,blackbeard,valkyrie,capitao,caveira,hibana,echo,jackal,mira,ying,lesion,ela,zofia,dokkaebi,vigil,lion,finka,alibi,maestro,maverick,clash,nomad,kaid,gridlock,mozzie,nokk,warden,amaru,goyo,kali,wamai,iana,oryx,ace,melusi,zero,aruni,flores,thunderbird,osa,thorn,azami|}$0"
+    ],
+    "description": "干员名模板",
+    "scope":"wikitext"
+},
+
+
+"地图名": {
+    "prefix": [" map"],
+    "body": [
+        "${1|银行,边境,木屋,俱乐部,海岸线,领事馆,杜斯妥也夫斯基咖啡馆,运河,俄勒冈乡间屋宅,荒漠服务站,主题乐园,庄园,游艇,赫里福基地,巴特雷特大学,要塞,芝加哥豪宅,摩天大楼,高塔,总统专机,贫民窟|}$0"
+    ],
+    "description": "干员名模板",
+    "scope":"wikitext"
+},
+
+
+"地图id": {
+    "prefix": [" mapid"],
+    "body": [
+        "${1|银行,bank,边境,border,木屋,chalet,俱乐部,clubhouse,海岸线,coastline,领事馆,consulate,杜斯妥也夫斯基咖啡馆,kafe,运河,kanal,俄勒冈乡间屋宅,oregon,荒漠服务站,outback,主题乐园,themepark,庄园,villa,游艇,yacht,赫里福基地,hereford,巴特雷特大学,bartlett,要塞,fortress,芝加哥豪宅,house,摩天大楼,skyscraper,高塔,tower,总统专机,plane,贫民窟,favela|}$0"
+    ],
+    "description": "地图id",
+    "scope":"wikitext"
+},
+
+"枪名": {
+    "prefix": [" wi"],
+    "body": [
+        "{{wi|${1|l85a2,ar33,556xi,g36c,r4c,f2,ak12,auga2,552commando,416ccarbine,c8sfw,mk17cqb,para308,type89,c7e,m762,v308,spear308,m4,arx200,ak74m,f90,commando9,sc3000k,pdw9,fmg9,mp5k,ump45,mp5,p90,9x19vsn,mp7,9mmc1,mpx,m12,mp5sd,vector45acp,t5smg,scorpionevo3a1,k1a,mx4storm,auga3,p10roni,6p41,dp27,g8a1,m249,t95lsw,lmge,alda556,m249saw,smg11,bearing9,c75auto,smg12,spsmg9,ots03,417,camrs,sr25,mk14ebr,ar1550,csrx300,acs12,bosg122,tcsg12,m590a1,m1014,sgcqb,sasg12,m870,super90,spas12,spas15,supernova,ita12l,six12,six12sd,fo12,p226mk25,m45meusoc,57usg,p9,lfp586,pmm,gsh18,p12,mk19mm,d50,prb92,luison,p229,usp40,q929,rg15,keratos357,1911tacops,p10c,44magsemiauto,sdp9mm,supershorty,ita12s,bailiff410,gonne6,uzk50gi|}}}$0"
+    ],
+    "description": "{{wi|枪名}}",
+    "scope":"wikitext"
+},  
+
+
+"涂装品质": {
+    "prefix": [" quality"],
+    "body": [
+        "{{${1|普通,优良,稀有,史诗,传说|}|$2}}$0"
+    ],
+    "description": "{{涂装品质|皮肤名称}}",
+    "scope":"wikitext"
+},
+
+
+"给你点颜色": {
+    "prefix": [" color"],
+    "body": [
+        "{{${1|红色,黄色,绿色,蓝色,桔色|}|$2}}$0"
+    ],
+    "description": "{{文本颜色|内容}}",
+    "scope":"wikitext"
+},
+
+
+"引用": {
+    "prefix": [" ref"],
+    "body": [
+        "<ref>$1</ref>$0"
+    ],
+    "description": "<ref>引用内容</ref>",
+    "scope":"wikitext"
+},
+
+
+"补丁页面": {
+    "prefix": [" infoboxPatch"],
+    "body": [
+        "{{Infobox patch",
+        "|补丁序号=$1",
+        "|y=$2",
+        "|s=$3",
+        "|n=$4",
+        "|配图=Y$2s$3.$4_update_patch_picture.png",
+        "|赛季=$5行动",
+        "|PC补丁=",
+        "* Ubisoft Connect：$6GB",
+        "* Steam：$7GB",
+        "|游戏机补丁=",
+        "* Xbox One：$8GB",
+        "* Xbox Series X：$9GB",
+        "* PS4：$10GB",
+        "* PS5：$11GB",
+        "|推送日期=$CURRENT_YEAR-$CURRENT_MONTH-${12:$CURRENT_DATE}",
+        "|翻译者=[$13 $14]",
+        "|来源=[$14 Ubisoft]",
+        "|wikia=Rainbow_Six_Siege_patches/Patch_$2.$3.$4",
+        "|内部版本号=v$2.$3.$4",
+        "}}",
+        "$0"
+    ],
+    "description": "补丁页面所使用的Infobox",
+    "scope":"wikitext"
+},
+
+
+"干员改动": {
+    "prefix": [" operatorChangeItem"],
+    "body": [
+        "{{干员改动",
+        "|$1",
+        "|$0",
+        "}}"
+    ],
+    "description": "{{干员改动|干员名称|改动内容}}",
+    "scope":"wikitext"
+},
+
+
+"机构周常": {
+    "prefix": [" 训练场-每周挑战"],
+    "body": [
+        "{{Weeklychallenge/训练场|${1|SAS,FBI SWAT,GIGN,Spetsnaz,GSG 9,JTF-2,Navy SEALS,BOPE,SAT,GEO,SDU,GROM,707th SMB,CBRN,GIS,GIGR,SASR|}|$2}}",
+        "$0"
+    ],
+    "description": "机构周常：{{Weeklychallenge/训练场|机构名|胜利场次}}",
+    "scope":"wikitext"
+},
+
+
+"多人机构周常": {
+    "prefix": [" 多人-每周挑战"],
+    "body": [
+        "{{Weeklychallenge/多人|${1|SAS,FBI SWAT,GIGN,Spetsnaz,GSG 9,JTF-2,Navy SEALS,BOPE,SAT,GEO,SDU,GROM,707th SMB,CBRN,GIS,GIGR,SASR|}|$2}}",
+        "$0"
+    ],
+    "description": "机构周常：{{Weeklychallenge/多人|机构名|胜利场次}}",
+    "scope":"wikitext"
+},
+
+
+"枪械大师周常": {
+    "prefix": [" 大师每周挑战","枪械击杀-每周挑战"],
+    "body": [
+        "{{Weeklychallenge/${1|冲锋枪大师,竞技冲锋枪大师,步枪大师,竞技步枪大师,手枪大师,装备大师,竞技装备大师,霰弹枪大师,竞技霰弹枪大师|}|$2}}",
+        "$0"
+    ],
+    "description": "枪械大师周常：{{Weeklychallenge/武器大师|击杀数}}",
+    "scope":"wikitext"
+},
+
+
+"进攻方挑战": {
+    "prefix": [" 进攻方-每周挑战"],
+    "body": [
+        "{{Weeklychallenge/${1|进攻方,防守方|}|$2}}",
+        "$0"
+    ],
+    "description": "机构周常：{{Weeklychallenge/进攻方|胜利场次}}",
+    "scope":"wikitext"
+},
+
+
+"防守方挑战": {
+    "prefix": [" 防守方-每周挑战"],
+    "body": [
+        "{{Weeklychallenge/${1|防守方,进攻方|}|$2}}",
+        "$0"
+    ],
+    "description": "机构周常：{{Weeklychallenge/防守方|胜利场次}}",
+    "scope":"wikitext"
+},
+
+
+"每周MVP": {
+    "prefix": [" MVP-每周挑战"],
+    "body": [
+        "{{Weeklychallenge/${1|多人/MVP,训练场/团队玩家|}|$2}}",
+        "$0"
+    ],
+    "description": "机构周常：{{Weeklychallenge/多人或者训练场任务|得分要求}}",
+    "scope":"wikitext"
+},
+
+
+"得分挑战": {
+    "prefix": [" 团队玩家-每周挑战"," 得分每周挑战"],
+    "body": [
+        "{{Weeklychallenge/${1|训练场/团队玩家,多人/MVP|}|$2}}",
+        "$0"
+    ],
+    "description": "机构周常：{{Weeklychallenge/多人或者训练场任务|得分要求}}",
+    "scope":"wikitext"
+},
+
+"维护模板：正在施工": {
+    "prefix": [" 维护模板-正在施工",],
+    "body": [
+        "{{正在施工|~~~~|${1:输入说明}}}",
+        "$0",
+    ],
+    "description": "{{正在施工|~~~~|说明}}",
+    "scope":"wikitext"
+},
+
+"维护模板：需要改进": {
+    "prefix": [" 维护模板-需要改进",],
+    "body": [
+        "{{需要改进|（''~~~~~''）${1:输入备注说明}}}",
+        "$0",
+    ],
+    "description": "{{需要改进|（''~~~~~''）备注内容}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：需要校对": {
+    "prefix": [" 维护模板-需要校对",],
+    "body": [
+        "{{需要校对|（''~~~~~''）${1:输入备注说明}}}",
+        "$0",
+    ],
+    "description": "{{需要校对|（''~~~~~''）备注内容}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：需要扩写": {
+    "prefix": [" 维护模板-需要扩写",],
+    "body": [
+        "{{需要扩写|（''~~~~~''）${1:输入备注说明}}}",
+        "$0",
+    ],
+    "description": "{{需要扩写|（''~~~~~''）备注内容}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：语法问题": {
+    "prefix": [" 维护模板-语法问题",],
+    "body": [
+        "{{语法问题|（''~~~~~''）${1:输入备注说明}}}",
+        "$0",
+    ],
+    "description": "{{语法问题|（''~~~~~''）备注内容}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：需要更新": {
+    "prefix": [" 维护模板-需要更新",],
+    "body": [
+        "{{需要更新|（''~~~~~''）${1:输入备注说明}}}",
+        "$0",
+    ],
+    "description": "{{需要更新|（''~~~~~''）备注内容}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：需要翻译": {
+    "prefix": [" 维护模板-需要翻译",],
+    "body": [
+        "{{需要翻译|（''~~~~~''）${1:输入备注说明}}}",
+        "$0",
+    ],
+    "description": "{{需要翻译|（''~~~~~''）备注内容}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：翻译质量不佳": {
+    "prefix": [" 维护模板-翻译质量不佳",],
+    "body": [
+        "{{翻译质量不佳|（''~~~~~''）${1:输入备注说明}}}",
+        "$0",
+    ],
+    "description": "{{翻译质量不佳|（''~~~~~''）备注内容}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：暂定名称": {
+    "prefix": [" 维护模板-暂定名称"],
+    "body": [
+        "{{暂定名称}}",
+        "$0",
+    ],
+    "description": "{{暂定名称}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：测试版本": {
+    "prefix": [" 维护模板-测试版本",],
+    "body": [
+        "{{测试版本}}",
+        "$0",
+    ],
+    "description": "{{测试版本}}",
+    "scope":"wikitext"
+},
+
+"维护模板：受限的游戏内容": {
+    "prefix": [" 维护模板-受限的游戏内容",],
+    "body": [
+        "{{受限的游戏内容}}",
+        "$0",
+    ],
+    "description": "{{受限的游戏内容}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：涉及术语": {
+    "prefix": [" 维护模板-涉及术语"," mbox-涉及术语"],
+    "body": [
+        "{{涉及术语}}",
+        "$0",
+    ],
+    "description": "{{涉及术语}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：已成历史": {
+    "prefix": [" 维护模板-已成历史"," mbox-暂定名称"],
+    "body": [
+        "{{已成历史|${1:输入备注说明}}}",
+        "$0",
+    ],
+    "description": "{{已成历史|备注内容}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：经验之谈": {
+    "prefix": [" 维护模板-经验之谈"," mbox-经验之谈"],
+    "body": [
+        "{{经验之谈${1:|段落}}}",
+        "$0",
+    ],
+    "description": "{{经验之谈}}",
+    "scope":"wikitext"
+},
+
+"维护模板：涉及现实": {
+    "prefix": [" 维护模板-涉及现实"," mbox-涉及现实"],
+    "body": [
+        "{{涉及现实}}",
+        "$0",
+    ],
+    "description": "{{涉及现实}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：争议内容": {
+    "prefix": [" 维护模板-争议内容"," mbox-争议内容"],
+    "body": [
+        "{{争议内容}}",
+        "$0",
+    ],
+    "description": "{{争议内容}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：优秀条目": {
+    "prefix": [" 维护模板-优秀条目"," mbox-优秀条目"],
+    "body": [
+        "{{优秀条目}}",
+        "$0",
+    ],
+    "description": "{{优秀条目}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：特色条目": {
+    "prefix": [" 维护模板-特色条目"," mbox-特色条目"],
+    "body": [
+        "{{特色条目}}",
+        "$0",
+    ],
+    "description": "{{特色条目}}",
+    "scope":"wikitext"
+},
+
+"维护模板：汤姆克兰西宇宙": {
+    "prefix": [" 维护模板-汤姆克兰西宇宙"," mbox-汤姆克兰西宇宙"],
+    "body": [
+        "{{汤姆克兰西宇宙|${1:输入备注说明}}}",
+        "$0",
+    ],
+    "description": "{{汤姆克兰西宇宙|备注}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：简而言之": {
+    "prefix": [" 维护模板-简而言之"," mbox-简而言之"],
+    "body": [
+        "{{简而言之|${1:输入条目的概要}}}",
+        "$0",
+    ],
+    "description": "{{简而言之|简单描述条目内容}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：待测试": {
+    "prefix": ["@待测试"],
+    "body": [
+        "{{待测试|${1:高亮内容}|${2:注释}}}$0"
+    ],
+    "description": "{{待测试|高亮内容|注释}}",
+    "scope":"wikitext"
+},
+
+
+"维护模板：内容缺失": {
+    "prefix": [" @内容缺失"],
+    "body": [
+        "{{内容缺失|${1:高亮内容}|${2:注释}}}$0"
+    ],
+    "description": "{{内容缺失|高亮内容|注释}}",
+    "scope":"wikitext"
+},
+
+"维护模板：请求来源": {
+    "prefix": ["@请求来源"],
+    "body": [
+        "{{请求来源|${1:高亮内容}|${2:注释}}}$0"
+    ],
+    "description": "{{请求来源|高亮内容|注释}}",
+    "scope":"wikitext"
+},
+
+"维护模板：存在争议": {
+    "prefix": ["@存在争议"],
+    "body": [
+        "{{存在争议${1:高亮内容}|${2:注释}}}$0"
+    ],
+    "description": "{{存在争议|高亮内容|注释}}",
+    "scope":"wikitext"
+},
+
+"维护模板：段内原创研究": {
+    "prefix": ["@原创研究"],
+    "body": [
+        "{{段内原创研究|${1:高亮内容}|${2:注释}}}$0"
+    ],
+    "description": "{{段内原创研究|高亮内容|注释}}",
+    "scope":"wikitext"
+}
 
 
 }
