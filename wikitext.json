@@ -227,43 +227,249 @@
         "scope":"wikitext"
     },
     
-    
-    "维护模板：条目质量问题": {
-        "prefix": [" 维护模板-条目质量问题"," mtl-quality"],
+    "维护模板：需要改进": {
+        "prefix": [" 维护模板-需要改进"," mtl-improvement-needed"],
         "body": [
-            "{{${1|1,需要改进,需要校对,需要扩写,语法问题,需要更新,需要翻译,翻译质量不佳|}|（''~~~~~''）<!--备注内容-->}}$0"
+            "{{需要改进|（''~~~~~''）$1<!--备注内容-->}}$0"
+        ],
+        "description": "{{需要改进|（''~~~~~''）备注内容}}",
+        "scope":"wikitext"
+    },
+
+    
+    "维护模板：需要校对": {
+        "prefix": [" 维护模板-需要校对"," mtl-review-needed"],
+        "body": [
+            "{{需要校对|（''~~~~~''）$1<!--备注内容-->}}$0"
         ],
         "description": "{{需要校对|（''~~~~~''）备注内容}}",
         "scope":"wikitext"
     },
-    
-    
-    "维护模板：行内标记": {
-        "prefix": [" 行内标记"," 维护模板-行内标记"," inline-tag"," mtl-inline-tag"],
+
+
+    "维护模板：需要扩写": {
+        "prefix": [" 维护模板-需要扩写"," mtl-expand-needed"],
         "body": [
-            "{{${1|1,待测试,内容缺失,请求来源,存在争议,段内原创研究|}|$2|$3}}$0"
+            "{{需要扩写|（''~~~~~''）$1<!--备注内容-->}}$0"
         ],
-        "description": "{{待测试|高亮内容|注释}}",
+        "description": "{{需要扩写|（''~~~~~''）备注内容}}",
         "scope":"wikitext"
     },
-    
-    
-    "维护模板：其他常用维护模板": {
-        "prefix": [" mtl-others"," 维护模板-其他"],
+
+
+    "维护模板：语法问题": {
+        "prefix": [" 维护模板-语法问题"," mtl-grammar-problem"],
         "body": [
-            "{{${1|1,暂定名称,测试版本,受限的游戏内容,涉及术语,已成历史竖线,经验之谈,经验之谈竖线段落,涉及现实,争议内容,优秀条目,特色条目,汤姆克兰西宇宙竖线|}}}$0"
+            "{{语法问题|（''~~~~~''）$1<!--备注内容-->}}$0"
+        ],
+        "description": "{{语法问题|（''~~~~~''）备注内容}}",
+        "scope":"wikitext"
+    },
+
+
+    "维护模板：需要更新": {
+        "prefix": [" 维护模板-需要更新"," mtl-update-needed"],
+        "body": [
+            "{{需要更新|（''~~~~~''）$1<!--备注内容-->}}$0"
+        ],
+        "description": "{{需要更新|（''~~~~~''）备注内容}}",
+        "scope":"wikitext"
+    },
+
+
+    "维护模板：需要翻译": {
+        "prefix": [" 维护模板-需要翻译"," mtl-translation-needed"],
+        "body": [
+            "{{需要翻译|（''~~~~~''）$1<!--备注内容-->}}$0"
+        ],
+        "description": "{{需要翻译|（''~~~~~''）备注内容}}",
+        "scope":"wikitext"
+    },
+
+
+    "维护模板：翻译质量不佳": {
+        "prefix": [" 维护模板-翻译质量不佳"," mtl-translation-quality-poor"],
+        "body": [
+            "{{翻译质量不佳|（''~~~~~''）$1<!--备注内容-->}}$0"
+        ],
+        "description": "{{翻译质量不佳|（''~~~~~''）备注内容}}",
+        "scope":"wikitext"
+    },
+
+
+    "维护模板：暂定名称": {
+        "prefix": [" 维护模板-暂定名称"," mtl-name-needs-changing"],
+        "body": [
+            "{{暂定名称}}$0"
         ],
         "description": "{{暂定名称}}",
         "scope":"wikitext"
     },
 
+    
+    "维护模板：测试版本": {
+        "prefix": [" 维护模板-测试版本"," mtl-test-version"],
+        "body": [
+            "{{测试版本}}$0"
+        ],
+        "description": "{{测试版本}}",
+        "scope":"wikitext"
+    },
+
+    "维护模板：受限的游戏内容": {
+        "prefix": [" 维护模板-受限的游戏内容"," mtl-limited-game-content"],
+        "body": [
+            "{{受限的游戏内容}}$0"
+        ],
+        "description": "{{受限的游戏内容}}",
+        "scope":"wikitext"
+    },
+
+
+    "维护模板：涉及术语": {
+        "prefix": [" 维护模板-涉及术语"," mtl-terms-involved"],
+        "body": [
+            "{{涉及术语}}$0"
+        ],
+        "description": "{{涉及术语}}",
+        "scope":"wikitext"
+    },
+
+
+    "维护模板：已成历史": {
+        "prefix": [" 维护模板-已成历史"," mtl-history"],
+        "body": [
+            "{{已成历史|$1}}$0"
+        ],
+        "description": "{{已成历史|备注内容}}",
+        "scope":"wikitext"
+    },
+
+
+    "维护模板：经验之谈": {
+        "prefix": [" 维护模板-经验之谈"," mtl-experience-talk"],
+        "body": [
+            "{{经验之谈}}$0"
+        ],
+        "description": "{{经验之谈}}",
+        "scope":"wikitext"
+    },
+
+
+    "维护模板：经验之谈-段落": {
+        "prefix": [" 维护模板-经验之谈-段落"," mtl-experience-talk-paragraph"],
+        "body": [
+            "{{经验之谈|段落}}$0"
+        ],
+        "description": "{{经验之谈|段落}}",
+        "scope":"wikitext"
+    },
+
+
+    "维护模板：涉及现实": {
+        "prefix": [" 维护模板-涉及现实"," mtl-realistic"],
+        "body": [
+            "{{涉及现实}}$0"
+        ],
+        "description": "{{涉及现实}}",
+        "scope":"wikitext"
+    },
+
+
+    "维护模板：争议内容": {
+        "prefix": [" 维护模板-争议内容"," mtl-disputed-content"],
+        "body": [
+            "{{争议内容}}$0"
+        ],
+        "description": "{{争议内容}}",
+        "scope":"wikitext"
+    },
+
+
+    "维护模板：优秀条目": {
+        "prefix": [" 维护模板-优秀条目"," mtl-excellent-article"],
+        "body": [
+            "{{优秀条目}}$0"
+        ],
+        "description": "{{优秀条目}}",
+        "scope":"wikitext"
+    },
+
+
+    "维护模板：特色条目": {
+        "prefix": [" 维护模板-特色条目"," mtl-feature-article"],
+        "body": [
+            "{{特色条目}}$0"
+        ],
+        "description": "{{特色条目}}",
+        "scope":"wikitext"
+    },
+
+    "维护模板：汤姆克兰西宇宙": {
+        "prefix": [" 维护模板-汤姆克兰西宇宙"," mtl-tom-clancy"],
+        "body": [
+            "{{汤姆克兰西宇宙|$1}}$0"
+        ],
+        "description": "{{汤姆克兰西宇宙|备注}}",
+        "scope":"wikitext"
+    },
+
+
     "维护模板：简而言之": {
-        "prefix": [" 简而言之"," nutshell"," mtl-nutshell"," 维护模板-简而言之"],
+        "prefix": [" mtl-nutshell"," 维护模板-简而言之"],
         "body": [
             "{{简而言之|$1}}$0"
         ],
         "description": "{{简而言之|简单描述条目内容}}",
         "scope":"wikitext"
+    },
+
+    
+    "维护模板：待测试": {
+        "prefix": [" 维护模板-待测试"," inline-test-needed"],
+        "body": [
+            "{{待测试|$1|$2}}$0"
+        ],
+        "description": "{{待测试|高亮内容|注释}}",
+        "scope":"wikitext"
+    },
+
+
+    "维护模板：内容缺失": {
+        "prefix": [" 维护模板-内容缺失"," inline-content-missing"],
+        "body": [
+            "{{内容缺失|$1|$2}}$0"
+        ],
+        "description": "{{内容缺失|高亮内容|注释}}",
+        "scope":"wikitext"
+    },
+
+    "维护模板：请求来源": {
+        "prefix": [" 维护模板-请求来源"," inline-request-source"],
+        "body": [
+            "{{请求来源|$1|$2}}$0"
+        ],
+        "description": "{{请求来源|高亮内容|注释}}",
+        "scope":"wikitext"
+    },
+
+    "维护模板：存在争议": {
+        "prefix": [" 维护模板-存在争议"," inline-disputed-content"],
+        "body": [
+            "{{存在争议|$1|$2}}$0"
+        ],
+        "description": "{{存在争议|高亮内容|注释}}",
+        "scope":"wikitext"
+    },
+
+    "维护模板：段内原创研究": {
+        "prefix": [" 维护模板-段内原创研究"," inline-original-research"," inline-OR"],
+        "body": [
+            "{{段内原创研究|$1|$2}}$0"
+        ],
+        "description": "{{段内原创研究|高亮内容|注释}}",
+        "scope":"wikitext"
     }
+
 
 }
