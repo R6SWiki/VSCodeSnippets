@@ -4,16 +4,12 @@
 
 ## 使用方法
 
-
-这里提供两个方案：
-
-
-- 对于使用工作区的人，直接[下载](https://github.com/R6SWiki/VSCodeSnippets/releases)文件拷贝到你的工作区中的`.vscode`目录下，搞定。
+- 对于使用工作区的人，直接下载对应的文件拷贝到你的工作区中的`.vscode`目录下，搞定。
 - 如果打算直接修改全局设置：
 	1. 在VSCode中按下`F1`
 	2. 搜索`Configure User Snippets`找到「首选项：配置用户代码片段」
-	3. 在弹出的框中选择「新建全局代码片段文件...」，然后输入一个文件名。
-	4. 根据需要把本项目提供的`wikitext.json`或者`lua.json`文件内容直接复制进去并保存即可使用，你也可以把[发行版](https://github.com/R6SWiki/VSCodeSnippets/releases)中的`R6swiki.code-snippets`文件里面的内容复制进去直接全部覆盖。
+	3. 在弹出的框中选择对应的语言类型，比如写Wiki就用`wikitext`，然后输入一个文件名。
+	4. 根据需要把本项目提供的`wikitext.code-snipeets`文件内容直接复制进去并保存即可使用。
 
 ### 语法提示
 
