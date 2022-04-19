@@ -31,14 +31,13 @@
 - **skill**：技能名
 - **mouse**：鼠标键
 - **key**：键盘键
-- **operatorCode**：干员名，只输入cord也可以触发
+- **operatorCode**：干员名，只输入code也可以触发
 - **map**：地图名
 - **mapid**：地图英文id
 - **wi**：武器型号
 - **quality**：涂装品质
 - **color**：颜色
 - **ref**：引用
-- **正在施工**：{{正在施工}}
 - **infoboxPatch**：补丁页面的infobox
 - **operatorChangeItem**：干员改动模板
 - **每周挑战**
